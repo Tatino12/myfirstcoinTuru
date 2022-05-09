@@ -3,7 +3,7 @@ pragma solidity ^0.8.2;
 contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
-    uint public totalSupply = 1000000 * 10 ** 18; //1 millon suply --> 10000 puse a la venta
+    uint public totalSupply = 1000000 * 10 ** 18; //1 millon suply --> 10000 puse a la venta --> lo hice todo en remix.ethereum.org, no desde el visual.
     string public name = "Crypto Turu";
     string public symbol = "Turu";
     uint public decimals = 18;
